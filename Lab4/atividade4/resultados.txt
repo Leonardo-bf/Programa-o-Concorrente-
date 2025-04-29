@@ -1,0 +1,71 @@
+Analisando os resultados e a eficiência para 1000 números:
+
+Com 1 threads:
+Tempo de execução = 0.001408s
+Tempo de execução = 0.000473s
+Tempo de execução = 0.000335s
+Tempo de execução = 0.000716s
+Tempo de execução = 0.000174s
+
+Média = 0,000621
+
+Como solicitado no enunciado consideraremos a média da execução com 1 thread
+como o parâmetro sequencial para as analises da eficiência e aceleração.
+
+Com 2 threads:
+Tempo de execução = 0.000855s
+Tempo de execução = 0.000992s
+Tempo de execução = 0.000617s
+Tempo de execução = 0.001864s
+Tempo de execução = 0.000733s
+
+Média = 0,0010122s
+aceleração = 0,000621 / 0,0010122 = 0,613515
+eficiência = 0,613515 / 2 = 0,306757
+
+Com 4 threads:
+Tempo de execução = 0.001738s
+Tempo de execução = 0.003362s
+Tempo de execução = 0.001473s
+Tempo de execução = 0.001660s
+Tempo de execução = 0.003314s
+
+Média = 0,0023094s
+aceleração = 0,000621 / 0,0023094 = 0,268901
+eficiência = 0,26891 / 4 = 0,067225
+
+Analisando os resultados e a eficiência para 1000000 números:
+
+Com 1 thread:
+Tempo de execução = 0.280090s
+Tempo de execução = 0.280523s
+Tempo de execução = 0.281826s
+Tempo de execução = 0.285817s
+Tempo de execução = 0.284940s
+
+Média = 0,2826392s
+
+Como solicitado no enunciado consideraremos a média da execução com 1 thread
+como o parâmetro sequencial para as analises da eficiência e aceleração.
+
+Com 2 threads:
+Tempo de execução = 0.345821s
+Tempo de execução = 0.372980s
+Tempo de execução = 0.337592s
+Tempo de execução = 0.328827s
+Tempo de execução = 0.357445s
+
+Média = 0,348533s
+aceleração = 0,2826392 / 0,348533 = 0,810939
+eficiência = 0,810939 / 2 = 0,405469
+
+Com 4 threads:
+Tempo de execução = 0.548467s
+Tempo de execução = 0.555921s
+Tempo de execução = 0.521103s
+Tempo de execução = 0.519873s
+Tempo de execução = 0.496709s
+
+Média = 0,5284146s
+aceleração = 0,2826392 / 0,5284146 = 0,534881
+eficiência = 0,534881 / 4 = 0,133720
